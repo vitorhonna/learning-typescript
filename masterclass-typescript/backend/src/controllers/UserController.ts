@@ -2,7 +2,9 @@ import { Request, Response } from 'express'
 import EmailService from '../services/EmailService';
 
 const users = [
-    { name: 'Bob', email: 'bob@example.com' }
+    { name: 'Bob', email: 'bob@example.com' },
+    { name: 'John', email: 'john@example.com' },
+    { name: 'Jane', email: '' }
 ];
 
 export default {
